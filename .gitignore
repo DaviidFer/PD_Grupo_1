@@ -1,0 +1,19 @@
+# Entorno virtual
+.venv/
+venv/
+
+# Archivos Python compilados
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Archivos de logs
+*.log
+
+# Configuración de VSCode
+.vscode/
+
+# Datos grandes (ajustar más adelante según convenga)
+data/raw/*
+!data/raw/.gitkeep
