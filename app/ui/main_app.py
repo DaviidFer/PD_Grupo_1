@@ -4,6 +4,8 @@ from pathlib import Path
 import pandas as pd
 import streamlit as st
 from sqlalchemy import text
+from sqlalchemy.exc import OperationalError  # <-- añade esta línea
+
 
 # Asegurarnos de que la raíz del proyecto está en sys.path
 ROOT_DIR = Path(__file__).resolve().parents[2]
